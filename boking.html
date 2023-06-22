@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Mobil Yogyakarta</title>
+    <link rel="stylesheet" type="text/css" href="booking.css">
+ 
+</head>
+<body>
+    <header>
+        <h1>Rental Mobil Yogyakarta</h1>
+    </header>
+
+    <div class="container">
+        <h2>Sewa Mobil dengan Harga Terbaik</h2>
+        <p>Temukan mobil impian Anda untuk keperluan perjalanan bisnis atau liburan dengan Rental Mobil Yogyakarta.</p>
+        <p>Kami menawarkan berbagai pilihan mobil berkualitas dengan harga yang kompetitif.</p>
+
+        <form action="booking.php" method="POST">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mobil">Pilih Mobil:</label>
+            <select id="mobil" name="mobil">
+                <option value="Avanza">Avanza</option>
+                <option value="Innova">Innova Reborn</option>
+                <option value="Fortuner">Fortuner</option>
+                <option value="Alphard">Veloz</option>
+                <option value="Alphard">Ayla</option>
+                <option value="Alphard">Xenia</option>
+                <option value="Avanza">Avanza New</option>
+                <option value="Alphard">Cayla</option>
+            </select>
+
+            <label for="tanggal">Tanggal Pesan:</label>
+            <input type="date" id="tanggal" name="tanggal" required>
+            <br>
+        <a href="daftarmobil.html" class="button">Lihat Daftar Mobil</a>
+        <button type="submit" class="button">Pesan Sekarang</button>
+        </form>
+
+    </div>
+</body>
+</html>
